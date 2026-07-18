@@ -17,6 +17,7 @@ load_dotenv()  # this will load variables from a .env file into environment
 
 
 groq_api_key = os.getenv("GROQ_API_KEY")
+from langchain_groq import ChatGroq
 
 # -------------------------
 # Page Config
